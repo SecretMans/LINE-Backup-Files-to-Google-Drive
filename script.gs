@@ -89,11 +89,13 @@ function getMimeType(fileType) {
     "gif": "image/gif",
     "jpg": "image/jpeg",
     "jpeg": "image/jpeg",
+    "txt": "text/plain",
     // Add more mime types as needed
   };
 
   return mimeTypes[fileType] || "undefined";
 }
+
 
 
 function doPost(e) {
